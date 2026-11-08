@@ -134,6 +134,6 @@ UtsFikri/
 
 ## Pengembang
 
-**Muhammad Fikri Khairi**
+**Muhammad Fikri Khairi 1247050107**
 
 Proyek UTS: `lat.pam.utsfikri`
