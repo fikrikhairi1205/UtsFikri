@@ -106,7 +106,7 @@ UtsFikri/
 
 1. **Unduh proyek**, lalu ekstrak jika berbentuk ZIP.
    ```bash
-   git clone <url-repositori-anda>
+   git clone https://github.com/fikrikhairi1205/UtsFikri.git
    ```
 2. **Buka di Android Studio** melalui **File → Open**, lalu pilih folder `UtsFikri` (folder yang langsung berisi `settings.gradle.kts`).
 3. **Tunggu sinkronisasi Gradle** selesai. Pada percobaan pertama prosesnya bisa cukup lama karena mengunduh dependensi.
