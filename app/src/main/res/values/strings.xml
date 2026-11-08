@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kopi dan Nyemil</string>
+    <string name="tagline">Teman terbaik untuk setiap cerita</string>
+    <string name="welcome_title">Kopi dan Nyemil</string>
+    <string name="welcome_subtitle">Get a taste of your wish</string>
+    <string name="sign_up_title">Mulai perjalanan rasa</string>
+    <string name="sign_up_body">Buat akun dan nikmati berbagai menu favorit di tempat kami.</string>
+    <string name="login_title">Selamat datang kembali</string>
+    <string name="register_title">Buat akun baru</string>
+</resources>

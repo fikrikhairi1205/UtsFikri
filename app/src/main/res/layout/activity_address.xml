@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/canvas"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                style="@style/Kopi.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Alamat pengiriman" />
+
+            <TextView
+                style="@style/Kopi.Subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Pesanan akan dikirim ke alamat ini." />
+
+            <EditText
+                android:id="@+id/addressName"
+                style="@style/Kopi.Field"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="28dp"
+                android:drawableStart="@drawable/ic_user"
+                android:hint="Nama lengkap"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/address"
+                style="@style/Kopi.Field"
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginTop="14dp"
+                android:gravity="top"
+                android:hint="Alamat lengkap"
+                android:inputType="textMultiLine"
+                android:paddingTop="16dp" />
+
+            <EditText
+                android:id="@+id/addressNote"
+                style="@style/Kopi.Field"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_marginTop="14dp"
+                android:gravity="top"
+                android:hint="Patokan atau detail lain"
+                android:inputType="textMultiLine"
+                android:paddingTop="16dp" />
+
+            <Button
+                android:id="@+id/btnOrder"
+                style="@style/Kopi.Button.Primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Order dan kirim" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Navigasi bawah -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="@drawable/bg_nav"
+        android:elevation="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp">
+
+        <Button
+            android:id="@+id/navHome"
+            style="@style/Kopi.Button.Nav"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_home"
+            android:text="Beranda" />
+
+        <Button
+            android:id="@+id/navShipping"
+            style="@style/Kopi.Button.Nav.Active"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_shipping"
+            android:text="Pengiriman" />
+
+        <Button
+            android:id="@+id/navProfile"
+            style="@style/Kopi.Button.Nav"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_profile"
+            android:text="Profil" />
+    </LinearLayout>
+</LinearLayout>

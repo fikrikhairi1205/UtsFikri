@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Biru indigo + aksen koral -->
+    <color name="primary_900">#1B2559</color>
+    <color name="primary_700">#2F3F9E</color>
+    <color name="primary_500">#4C63E0</color>
+    <color name="accent">#FF7F6B</color>
+    <color name="accent_soft">#FFE3DD</color>
+    <color name="canvas">#F5F7FF</color>
+    <color name="canvas_dark">#DDE4FA</color>
+    <color name="line">#E1E6F7</color>
+    <color name="ink">#121A3D</color>
+    <color name="muted">#5E6791</color>
+    <color name="hint">#98A0C4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="success">#3B82F6</color>
+    <color name="success_soft">#DCE8FF</color>
+</resources>

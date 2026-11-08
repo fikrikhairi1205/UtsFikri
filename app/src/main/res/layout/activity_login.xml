@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/canvas"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="24dp"
+            android:clipToOutline="true"
+            android:contentDescription="Logo"
+            android:padding="17dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo2f" />
+
+        <TextView
+            style="@style/Kopi.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Masuk" />
+
+        <TextView
+            style="@style/Kopi.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Lanjutkan ke cerita rasa favoritmu." />
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/Kopi.Field"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="36dp"
+            android:drawableStart="@drawable/ic_user"
+            android:hint="Username"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/Kopi.Field"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="14dp"
+            android:drawableStart="@drawable/ic_lock"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/Kopi.Button.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Masuk" />
+    </LinearLayout>
+</ScrollView>
